@@ -82,10 +82,6 @@
 ## 为什么要做这个？[TL;DR]
 学了几周Unity之后，一直想找项目练手，一开始自己尝试做了一下新仙剑的第一关，大概了解了RPG游戏的制作流程，后因机缘巧合发现了zby大佬的[PAL3patch](https://github.com/zhangboyang/PAL3patch)项目以及dontpanic92大佬的[OpenPAL3](https://github.com/dontpanic92/OpenPAL3)项目，所以给技术上实现仙三复刻带来了可能。至于为什么选择C#/Unity？选择Unity的原因有两点，第一是Unity对全平台全端的支持和打包做的很好很方便，第二个是Unity提供Mac上arm64原生IDE支持（我大概有一半时间是在Mac上写代码的）。当然其实本项目的实现几乎没有用到Unity引擎的大部分功能，特别是编辑器功能，因为几乎是100%纯代码实现的，所以其实理论上不需要花太大的代价就可以把本项目移植到其他支持C#脚本的引擎中。
 
-## 社区
-  - 仙剑三（及外传）复刻版讨论群：252315306
-  - 仙剑三（及外传）复刻版开发群：330680869
-
 ## 项目依赖
   - [UnitySimpleFileBrowser](https://github.com/yasirkula/UnitySimpleFileBrowser)
   - [UnityIngameDebugConsole](https://github.com/yasirkula/UnityIngameDebugConsole)
